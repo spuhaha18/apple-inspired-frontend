@@ -1,0 +1,9 @@
+local-assets/
+private/
+corpus/
+*.sketch
+*.fig
+*.dmg
+.env
+.env.*
+.DS_Store
