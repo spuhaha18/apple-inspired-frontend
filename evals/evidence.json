@@ -1,0 +1,413 @@
+[
+  {
+    "agent": "claude",
+    "variant": "none",
+    "version": "2.1.283 (Claude Code)",
+    "started_utc": "2026-09-27T05:32:14.043362+00:00",
+    "elapsed_seconds": 22.965,
+    "timeout_seconds": 150,
+    "timed_out": false,
+    "exit_code": 0,
+    "run_id": "claude-none",
+    "raw_sha256": {
+      "stdout.raw": "9e6136c1e8e8d5110edc22d34ed7f36aea469436c6b3bef018ff31d4c4e28f49",
+      "stderr.raw": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "model": [
+      "claude-opus-5-5[1m]"
+    ],
+    "usage": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 7040,
+      "cache_read_input_tokens": 16495,
+      "output_tokens": 2152,
+      "output_tokens_details": {
+        "thinking_tokens": 103
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 7040,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "not_available",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 997,
+          "cache_read_input_tokens": 7999,
+          "cache_creation_input_tokens": 1073,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 1073
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard"
+    },
+    "reported_cost_usd": 0.102683,
+    "num_turns": 7,
+    "subtype": "success",
+    "changed_fixture_files": [
+      "index.html",
+      "style.css",
+      "app.js"
+    ],
+    "new_project_documents": [],
+    "fixture_sha256": {
+      "app.js": "c15016e1ee1338f0759115f18e0796daf8d8ead4d1c6ebd501c84b74a25105e8",
+      "index.html": "337ddbd6ea49b143da000dbea2473753eea22d803c349378673b79f03271a0c4",
+      "style.css": "c9e99c89665a8894b402e147ce97360019363e30e6fc0a3e321537279813ccf9"
+    },
+    "frozen_skill_sha256": {}
+  },
+  {
+    "agent": "claude",
+    "variant": "current",
+    "version": "2.1.283 (Claude Code)",
+    "started_utc": "2026-09-27T05:32:37.603573+00:00",
+    "elapsed_seconds": 32.082,
+    "timeout_seconds": 150,
+    "timed_out": false,
+    "exit_code": 0,
+    "run_id": "claude-current",
+    "raw_sha256": {
+      "stdout.raw": "ef40af0323ab81fc0310eb5b65bf96c9ca821d3ac03ab775439f607c6df74caa",
+      "stderr.raw": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "model": [
+      "claude-opus-5-5[1m]"
+    ],
+    "usage": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 9536,
+      "cache_read_input_tokens": 38730,
+      "output_tokens": 3150,
+      "output_tokens_details": {
+        "thinking_tokens": 582
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 9536,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "not_available",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 1266,
+          "cache_read_input_tokens": 11157,
+          "cache_creation_input_tokens": 411,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 411
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard"
+    },
+    "reported_cost_usd": 0.147074,
+    "num_turns": 10,
+    "subtype": "success",
+    "changed_fixture_files": [
+      "index.html",
+      "style.css",
+      "app.js"
+    ],
+    "new_project_documents": [],
+    "fixture_sha256": {
+      "app.js": "c15016e1ee1338f0759115f18e0796daf8d8ead4d1c6ebd501c84b74a25105e8",
+      "index.html": "337ddbd6ea49b143da000dbea2473753eea22d803c349378673b79f03271a0c4",
+      "style.css": "c9e99c89665a8894b402e147ce97360019363e30e6fc0a3e321537279813ccf9"
+    },
+    "frozen_skill_sha256": {
+      ".claude/skills/apple-inspired-frontend/SKILL.md": "360ef7c7a10a26e986e035a79ff12524aacab53ddee57d8a83b2a3562efea90d",
+      ".claude/skills/apple-inspired-frontend/references/sources.md": "3f18daff4afa60570aff8d9e93e0ae64a21f20c15e4961e711f4ad4e31c6e673",
+      ".claude/skills/apple-inspired-frontend/references/ui-kits-and-symbols.md": "4c2eaac6e41887e0c04c056118ed7dbd8a22c182218fad4f548607842435a162",
+      ".claude/skills/apple-inspired-frontend/references/web-adaptation.md": "217c9362456d5bd1849c0bbfe9b2f24da0b51ba1b2a265981dd15ce0360216b3",
+      ".claude/skills/apple-inspired-frontend/references/local-assets.md": "0b40a8fcfcc48c420f9723f1db4d07bbaa74dc317c8a701a23e332c7f2c8af3b",
+      ".claude/skills/apple-inspired-frontend/references/review-checklist.md": "6d43dd92819702d572df0e177446072b13a3300815c8f1a3a1c5b10b13310725",
+      ".claude/skills/apple-inspired-frontend/templates/DESIGN.md": "d7960409f8ab810507c48988e23776d6f22b341a2ea79d4c5050bd98aaf266b1"
+    }
+  },
+  {
+    "agent": "claude",
+    "variant": "v2",
+    "version": "2.1.283 (Claude Code)",
+    "started_utc": "2026-09-27T05:44:38.904353+00:00",
+    "elapsed_seconds": 51.722,
+    "timeout_seconds": 180,
+    "timed_out": false,
+    "exit_code": 0,
+    "run_id": "claude-v2",
+    "raw_sha256": {
+      "stdout.raw": "0158d499261c622946f89d498457318deb296bc40b5ec4f3c3f3e59347582118",
+      "stderr.raw": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "model": [
+      "claude-opus-5-5[1m]"
+    ],
+    "usage": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 15503,
+      "cache_read_input_tokens": 47337,
+      "output_tokens": 5476,
+      "output_tokens_details": {
+        "thinking_tokens": 707
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 15503,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "not_available",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 1160,
+          "cache_read_input_tokens": 15056,
+          "cache_creation_input_tokens": 2479,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 2479
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard"
+    },
+    "reported_cost_usd": 0.24305140000000003,
+    "num_turns": 11,
+    "subtype": "success",
+    "changed_fixture_files": [
+      "index.html",
+      "style.css",
+      "app.js"
+    ],
+    "new_project_documents": [
+      "docs/CHANGE-search-clear.md"
+    ],
+    "fixture_sha256": {
+      "app.js": "c15016e1ee1338f0759115f18e0796daf8d8ead4d1c6ebd501c84b74a25105e8",
+      "index.html": "337ddbd6ea49b143da000dbea2473753eea22d803c349378673b79f03271a0c4",
+      "style.css": "c9e99c89665a8894b402e147ce97360019363e30e6fc0a3e321537279813ccf9"
+    },
+    "frozen_skill_sha256": {
+      ".claude/skills/apple-inspired-frontend/SKILL.md": "f4d5fd998fedd71e5d7fab34c07dc5b71f48093bc52377f58801b349913fc1fd",
+      ".claude/skills/apple-inspired-frontend/references/tool-capabilities.md": "82bd0ff885c999911a1f5b0ccd75a0538b6ca246769ef7dc7c7cd456b5051e43",
+      ".claude/skills/apple-inspired-frontend/references/decision-rules.md": "699b776d2af189540509226c1ec0790493ff66f7da5e2fa067cc3b45327ab487",
+      ".claude/skills/apple-inspired-frontend/references/sources.md": "3f18daff4afa60570aff8d9e93e0ae64a21f20c15e4961e711f4ad4e31c6e673",
+      ".claude/skills/apple-inspired-frontend/references/ui-kits-and-symbols.md": "4c2eaac6e41887e0c04c056118ed7dbd8a22c182218fad4f548607842435a162",
+      ".claude/skills/apple-inspired-frontend/references/workflow.md": "fc7ee2bd572d77e4cd76ea80eae6f1ba37892c6a29b5065e0be91180db22f6bf",
+      ".claude/skills/apple-inspired-frontend/references/web-adaptation.md": "217c9362456d5bd1849c0bbfe9b2f24da0b51ba1b2a265981dd15ce0360216b3",
+      ".claude/skills/apple-inspired-frontend/references/local-assets.md": "0b40a8fcfcc48c420f9723f1db4d07bbaa74dc317c8a701a23e332c7f2c8af3b",
+      ".claude/skills/apple-inspired-frontend/references/project-profiles.md": "8df0b734c88e7dab74926e4017bcdf5324ac1e2330b7fcbf813a1adbed1fbda6",
+      ".claude/skills/apple-inspired-frontend/references/review-checklist.md": "d2110b7e3c5b703a74843e040347b336ca63a9de5af7b677f0b07f71ef545e8c",
+      ".claude/skills/apple-inspired-frontend/templates/DESIGN.md": "9572b0bce0f70fbfd1836a84d2cce0dfe341d42c52d379d3c22ec24b4b239c29",
+      ".claude/skills/apple-inspired-frontend/templates/CHANGE.md": "742a7f4c7704ab47ae6618ae1a13e31e8d2cb24cfa151fb9a2950e349e7aae12",
+      ".claude/skills/apple-inspired-frontend/templates/REVIEW.md": "fb1eb59696bd5c009c98b51eccc0db613074a4a80637227e1906f620b3411c50",
+      ".claude/skills/apple-inspired-frontend/references/patterns/data-display.md": "1b78f97773c789262385233762c9cedc0e92370cc307ad957b340189e4810003",
+      ".claude/skills/apple-inspired-frontend/references/patterns/visual-system.md": "b688cf7be7a04daec348bfd0e2d3c9a5f5e743817761fa3b1480bd252a1f07eb",
+      ".claude/skills/apple-inspired-frontend/references/patterns/forms-feedback.md": "42c962b389ecd21abdb654f56454614f2082d7956246f091000f758a37262881",
+      ".claude/skills/apple-inspired-frontend/references/patterns/navigation.md": "958e13b211217aa4b4ec7172e8d36b4bd8db81824299c8fd0b11816fe15cd702"
+    }
+  },
+  {
+    "agent": "codex",
+    "variant": "none",
+    "version": "codex-cli 0.135.0",
+    "started_utc": "2026-09-27T05:34:06.359738+00:00",
+    "elapsed_seconds": 17.107,
+    "timeout_seconds": 120,
+    "timed_out": false,
+    "exit_code": 1,
+    "run_id": "codex-none",
+    "raw_sha256": {
+      "stdout.raw": "a41f07e7a3f43820ba11078150356915b1dbc36e37d18d93aa7e198662ccb5f9",
+      "stderr.raw": "097d365a257f37aaf85469d2e8a647d06fd150f488298bd59275c28654f1d61f"
+    },
+    "model": "not reported before authentication failure",
+    "usage": [],
+    "provider": "CLI configured default",
+    "changed_fixture_files": [],
+    "new_project_documents": [],
+    "fixture_sha256": {
+      "app.js": "c15016e1ee1338f0759115f18e0796daf8d8ead4d1c6ebd501c84b74a25105e8",
+      "index.html": "337ddbd6ea49b143da000dbea2473753eea22d803c349378673b79f03271a0c4",
+      "style.css": "c9e99c89665a8894b402e147ce97360019363e30e6fc0a3e321537279813ccf9"
+    },
+    "frozen_skill_sha256": {}
+  },
+  {
+    "agent": "codex",
+    "variant": "current",
+    "version": "codex-cli 0.135.0",
+    "started_utc": "2026-09-27T05:34:23.870105+00:00",
+    "elapsed_seconds": 15.395,
+    "timeout_seconds": 120,
+    "timed_out": false,
+    "exit_code": 1,
+    "run_id": "codex-current",
+    "raw_sha256": {
+      "stdout.raw": "d6b417715a6d9198e17f223c84c03417aae9f671f9ebe0db067c814342f4c6ab",
+      "stderr.raw": "1f01bb9456228016bc0fe3a36b70926be148e84c2b82cafd81585a42a22600d2"
+    },
+    "model": "not reported before authentication failure",
+    "usage": [],
+    "provider": "CLI configured default",
+    "changed_fixture_files": [],
+    "new_project_documents": [],
+    "fixture_sha256": {
+      "app.js": "c15016e1ee1338f0759115f18e0796daf8d8ead4d1c6ebd501c84b74a25105e8",
+      "index.html": "337ddbd6ea49b143da000dbea2473753eea22d803c349378673b79f03271a0c4",
+      "style.css": "c9e99c89665a8894b402e147ce97360019363e30e6fc0a3e321537279813ccf9"
+    },
+    "frozen_skill_sha256": {
+      ".agents/skills/apple-inspired-frontend/SKILL.md": "360ef7c7a10a26e986e035a79ff12524aacab53ddee57d8a83b2a3562efea90d",
+      ".agents/skills/apple-inspired-frontend/references/sources.md": "3f18daff4afa60570aff8d9e93e0ae64a21f20c15e4961e711f4ad4e31c6e673",
+      ".agents/skills/apple-inspired-frontend/references/ui-kits-and-symbols.md": "4c2eaac6e41887e0c04c056118ed7dbd8a22c182218fad4f548607842435a162",
+      ".agents/skills/apple-inspired-frontend/references/web-adaptation.md": "217c9362456d5bd1849c0bbfe9b2f24da0b51ba1b2a265981dd15ce0360216b3",
+      ".agents/skills/apple-inspired-frontend/references/local-assets.md": "0b40a8fcfcc48c420f9723f1db4d07bbaa74dc317c8a701a23e332c7f2c8af3b",
+      ".agents/skills/apple-inspired-frontend/references/review-checklist.md": "6d43dd92819702d572df0e177446072b13a3300815c8f1a3a1c5b10b13310725",
+      ".agents/skills/apple-inspired-frontend/templates/DESIGN.md": "d7960409f8ab810507c48988e23776d6f22b341a2ea79d4c5050bd98aaf266b1"
+    }
+  },
+  {
+    "agent": "codex",
+    "variant": "none",
+    "version": "codex-cli 0.135.0",
+    "started_utc": "2026-09-27T05:42:09.297149+00:00",
+    "elapsed_seconds": 25.927,
+    "timeout_seconds": 180,
+    "timed_out": false,
+    "exit_code": 0,
+    "run_id": "codex-proxy-none",
+    "raw_sha256": {
+      "stdout.raw": "0c8fc17161d598bf898341669212a8356fc99e84cd5d90ffb593983cd17fc38f",
+      "stderr.raw": "1aa26269eb1cc57f86b235a03cda53c004edb5b1e9fc99d4da4f00843293d721"
+    },
+    "model": "gpt-5.6-terra (per-command, /models verified)",
+    "usage": [
+      {
+        "input_tokens": 78243,
+        "cached_input_tokens": 59392,
+        "output_tokens": 812,
+        "reasoning_output_tokens": 236
+      }
+    ],
+    "provider": "existing Cliproxy, responses, isolated CODEX_HOME",
+    "changed_fixture_files": [],
+    "new_project_documents": [],
+    "fixture_sha256": {
+      "app.js": "c15016e1ee1338f0759115f18e0796daf8d8ead4d1c6ebd501c84b74a25105e8",
+      "index.html": "337ddbd6ea49b143da000dbea2473753eea22d803c349378673b79f03271a0c4",
+      "style.css": "c9e99c89665a8894b402e147ce97360019363e30e6fc0a3e321537279813ccf9"
+    },
+    "frozen_skill_sha256": {}
+  },
+  {
+    "agent": "codex",
+    "variant": "current",
+    "version": "codex-cli 0.135.0",
+    "started_utc": "2026-09-27T05:42:09.308362+00:00",
+    "elapsed_seconds": 25.319,
+    "timeout_seconds": 180,
+    "timed_out": false,
+    "exit_code": 0,
+    "run_id": "codex-proxy-current",
+    "raw_sha256": {
+      "stdout.raw": "369a41b1db231a31c002839d5aa37c6cee3833851a89d848ec7366f163af0914",
+      "stderr.raw": "1aa26269eb1cc57f86b235a03cda53c004edb5b1e9fc99d4da4f00843293d721"
+    },
+    "model": "gpt-5.6-terra (per-command, /models verified)",
+    "usage": [
+      {
+        "input_tokens": 78188,
+        "cached_input_tokens": 59392,
+        "output_tokens": 957,
+        "reasoning_output_tokens": 198
+      }
+    ],
+    "provider": "existing Cliproxy, responses, isolated CODEX_HOME",
+    "changed_fixture_files": [],
+    "new_project_documents": [],
+    "fixture_sha256": {
+      "app.js": "c15016e1ee1338f0759115f18e0796daf8d8ead4d1c6ebd501c84b74a25105e8",
+      "index.html": "337ddbd6ea49b143da000dbea2473753eea22d803c349378673b79f03271a0c4",
+      "style.css": "c9e99c89665a8894b402e147ce97360019363e30e6fc0a3e321537279813ccf9"
+    },
+    "frozen_skill_sha256": {
+      ".agents/skills/apple-inspired-frontend/SKILL.md": "360ef7c7a10a26e986e035a79ff12524aacab53ddee57d8a83b2a3562efea90d",
+      ".agents/skills/apple-inspired-frontend/references/sources.md": "3f18daff4afa60570aff8d9e93e0ae64a21f20c15e4961e711f4ad4e31c6e673",
+      ".agents/skills/apple-inspired-frontend/references/ui-kits-and-symbols.md": "4c2eaac6e41887e0c04c056118ed7dbd8a22c182218fad4f548607842435a162",
+      ".agents/skills/apple-inspired-frontend/references/web-adaptation.md": "217c9362456d5bd1849c0bbfe9b2f24da0b51ba1b2a265981dd15ce0360216b3",
+      ".agents/skills/apple-inspired-frontend/references/local-assets.md": "0b40a8fcfcc48c420f9723f1db4d07bbaa74dc317c8a701a23e332c7f2c8af3b",
+      ".agents/skills/apple-inspired-frontend/references/review-checklist.md": "6d43dd92819702d572df0e177446072b13a3300815c8f1a3a1c5b10b13310725",
+      ".agents/skills/apple-inspired-frontend/templates/DESIGN.md": "d7960409f8ab810507c48988e23776d6f22b341a2ea79d4c5050bd98aaf266b1"
+    }
+  },
+  {
+    "agent": "codex",
+    "variant": "v2",
+    "version": "codex-cli 0.135.0",
+    "started_utc": "2026-09-27T05:43:55.912476+00:00",
+    "elapsed_seconds": 26.77,
+    "timeout_seconds": 180,
+    "timed_out": false,
+    "exit_code": 0,
+    "run_id": "codex-proxy-v2",
+    "raw_sha256": {
+      "stdout.raw": "6eff4db97d060127af415717b2c2fe12d171b57d575bd774f2727b605f040099",
+      "stderr.raw": "1aa26269eb1cc57f86b235a03cda53c004edb5b1e9fc99d4da4f00843293d721"
+    },
+    "model": "gpt-5.6-terra (per-command, /models verified)",
+    "usage": [
+      {
+        "input_tokens": 78102,
+        "cached_input_tokens": 59392,
+        "output_tokens": 796,
+        "reasoning_output_tokens": 110
+      }
+    ],
+    "provider": "existing Cliproxy, responses, isolated CODEX_HOME",
+    "changed_fixture_files": [],
+    "new_project_documents": [],
+    "fixture_sha256": {
+      "app.js": "c15016e1ee1338f0759115f18e0796daf8d8ead4d1c6ebd501c84b74a25105e8",
+      "index.html": "337ddbd6ea49b143da000dbea2473753eea22d803c349378673b79f03271a0c4",
+      "style.css": "c9e99c89665a8894b402e147ce97360019363e30e6fc0a3e321537279813ccf9"
+    },
+    "frozen_skill_sha256": {
+      ".agents/skills/apple-inspired-frontend/SKILL.md": "f4d5fd998fedd71e5d7fab34c07dc5b71f48093bc52377f58801b349913fc1fd",
+      ".agents/skills/apple-inspired-frontend/references/tool-capabilities.md": "82bd0ff885c999911a1f5b0ccd75a0538b6ca246769ef7dc7c7cd456b5051e43",
+      ".agents/skills/apple-inspired-frontend/references/decision-rules.md": "699b776d2af189540509226c1ec0790493ff66f7da5e2fa067cc3b45327ab487",
+      ".agents/skills/apple-inspired-frontend/references/sources.md": "3f18daff4afa60570aff8d9e93e0ae64a21f20c15e4961e711f4ad4e31c6e673",
+      ".agents/skills/apple-inspired-frontend/references/ui-kits-and-symbols.md": "4c2eaac6e41887e0c04c056118ed7dbd8a22c182218fad4f548607842435a162",
+      ".agents/skills/apple-inspired-frontend/references/workflow.md": "fc7ee2bd572d77e4cd76ea80eae6f1ba37892c6a29b5065e0be91180db22f6bf",
+      ".agents/skills/apple-inspired-frontend/references/web-adaptation.md": "217c9362456d5bd1849c0bbfe9b2f24da0b51ba1b2a265981dd15ce0360216b3",
+      ".agents/skills/apple-inspired-frontend/references/local-assets.md": "0b40a8fcfcc48c420f9723f1db4d07bbaa74dc317c8a701a23e332c7f2c8af3b",
+      ".agents/skills/apple-inspired-frontend/references/project-profiles.md": "8df0b734c88e7dab74926e4017bcdf5324ac1e2330b7fcbf813a1adbed1fbda6",
+      ".agents/skills/apple-inspired-frontend/references/review-checklist.md": "d2110b7e3c5b703a74843e040347b336ca63a9de5af7b677f0b07f71ef545e8c",
+      ".agents/skills/apple-inspired-frontend/templates/DESIGN.md": "9572b0bce0f70fbfd1836a84d2cce0dfe341d42c52d379d3c22ec24b4b239c29",
+      ".agents/skills/apple-inspired-frontend/templates/CHANGE.md": "742a7f4c7704ab47ae6618ae1a13e31e8d2cb24cfa151fb9a2950e349e7aae12",
+      ".agents/skills/apple-inspired-frontend/templates/REVIEW.md": "fb1eb59696bd5c009c98b51eccc0db613074a4a80637227e1906f620b3411c50",
+      ".agents/skills/apple-inspired-frontend/references/patterns/data-display.md": "1b78f97773c789262385233762c9cedc0e92370cc307ad957b340189e4810003",
+      ".agents/skills/apple-inspired-frontend/references/patterns/visual-system.md": "b688cf7be7a04daec348bfd0e2d3c9a5f5e743817761fa3b1480bd252a1f07eb",
+      ".agents/skills/apple-inspired-frontend/references/patterns/forms-feedback.md": "42c962b389ecd21abdb654f56454614f2082d7956246f091000f758a37262881",
+      ".agents/skills/apple-inspired-frontend/references/patterns/navigation.md": "958e13b211217aa4b4ec7172e8d36b4bd8db81824299c8fd0b11816fe15cd702"
+    }
+  }
+]
